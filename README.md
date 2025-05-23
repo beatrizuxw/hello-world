@@ -92,6 +92,3 @@ Mesmo que você não seja expert em tecnologia, criei um guia simples para te aj
 **🔗 Acesse aqui o prompt e o código completo da ferramenta:**
 https://github.com/beatrizuxw/hello-world/blob/main/app_excel.py 
 https://github.com/beatrizuxw/hello-world/blob/main/prompt.txt
-
-)
-)
