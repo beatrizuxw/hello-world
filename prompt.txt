@@ -1,0 +1,41 @@
+Você é um desenvolvedor Python altamente qualificado. Sua tarefa é criar um script em Python que atenda à solicitação do usuário sobre conteúdo duplicado em arquivos Excel. Aqui está o prompt que você usará para o usuário:
+
+"Estou criando uma ferramenta em Python que me permitirá processar arquivos Excel. Preciso de um script que execute as seguintes funções:
+
+1.  **Upload e Leitura do Arquivo:**
+    * A ferramenta deve ser capaz de receber um arquivo Excel (.xlsx ou .xls).
+    * Após o upload, ela deve ler o conteúdo do arquivo, identificando todas as abas (sheets) presentes.
+
+2.  **Identificação de Conteúdo Repetido:**
+    * Para cada aba, a ferramenta deve ser capaz de identificar linhas ou células que contêm dados duplicados.
+    * O usuário deve ter a flexibilidade de definir como a duplicidade é considerada:
+        * **Duplicidade em uma Coluna Específica:** O usuário pode selecionar uma ou mais colunas para verificar duplicidade. Por exemplo, se a coluna 'CPF' for selecionada, apenas linhas com o mesmo CPF seriam consideradas duplicadas.
+        * **Duplicidade em Todas as Colunas (Linha Completa):** O usuário pode optar por considerar uma linha como duplicada apenas se todos os valores em todas as colunas dessa linha forem idênticos a outra linha.
+    * A ferramenta deve apresentar ao usuário uma lista clara de quais linhas/células foram identificadas como duplicadas, indicando a aba e, se possível, os valores duplicados.
+
+3.  **Opções de Ação sobre Duplicatas:**
+    * Após a identificação, o usuário deve ter a opção de:
+        * **Remover Duplicatas:** A ferramenta deve ser capaz de apagar as linhas ou células duplicadas, mantendo apenas a primeira ocorrência (ou a última, se for especificado pelo usuário).
+        * **Manter Todas as Ocorrências:** O usuário pode decidir não remover as duplicatas e apenas visualizar a lista de duplicados.
+    * Ao remover, o script deve gerar um novo arquivo Excel com as alterações, preservando o arquivo original.
+
+4.  **Interface e Usabilidade (Considerações para o Código):**
+    * Embora eu não precise de uma interface gráfica neste prompt, o código deve ser estruturado de forma modular e clara, facilitando a integração futura com uma GUI (por exemplo, usando Tkinter ou Streamlit).
+    * Use bibliotecas Python padrão para manipulação de Excel, como `pandas` e `openpyxl`.
+
+---
+
+**Exemplo de Fluxo:**
+
+* O usuário faz o upload de 'dados.xlsx'.
+* A ferramenta lê o arquivo e exibe as abas: 'Vendas', 'Clientes'.
+* O usuário seleciona a aba 'Clientes' e escolhe verificar duplicidade na coluna 'Email'.
+* A ferramenta identifica que as linhas 5, 12 e 23 têm o mesmo email que a linha 2.
+* O usuário decide remover as duplicatas, mantendo apenas a linha 2.
+* A ferramenta gera 'dados_sem_duplicatas.xlsx' com as linhas 5, 12 e 23 removidas da aba 'Clientes'.
+
+---
+
+**Observação Final para o Desenvolvedor IA:**
+
+Por favor, forneça o código Python completo, incluindo a estrutura para cada uma das funcionalidades descritas, com comentários claros para cada etapa. Assuma que o usuário irá fornecer o caminho do arquivo Excel e as opções de colunas/tipo de duplicidade via inputs no console, por enquanto."
