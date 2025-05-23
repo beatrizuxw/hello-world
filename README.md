@@ -8,7 +8,7 @@ A proposta é tornar a **tecnologia mais clara, intuitiva e humana**, utilizando
 
 ## 💡 Por que esta ferramenta?
 
-A ideia surgiu de uma necessidade real durante a migração das nossas FAQs para a SmartContent: agilizar a identificação de conteúdos repetidos ou muito parecidos. Isso evita que a base de conhecimento fique poluída e que a IA tenha dificuldade em entregar a resposta mais precisa para a pessoa usuária.
+A ideia surgiu de uma necessidade real durante a migração das nossas FAQs da empresa para outra ferramenta interna com IA. O objetivo era agilizar a identificação de conteúdos repetidos ou muito parecidos. Isso evita que a base de conhecimento fique poluída e que a inteligência artificial tenha dificuldade em entregar a resposta mais precisa para a pessoa usuária.
 
 ### Como funciona?
 
